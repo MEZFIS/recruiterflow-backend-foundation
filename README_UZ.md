@@ -13,7 +13,7 @@
 1. Supabase’da loyiha yarating va SQL Editor’da avval `supabase/migrations/001_initial_schema.sql`, keyin `supabase/migrations/002_audit_triggers.sql` fayllarini to‘liq ishga tushiring.
 2. Authentication → Providers bo‘limida Email provider yoqilganini tekshiring. Email tasdiqlash sozlamasiga qarab, yangi foydalanuvchi emailini tasdiqlashi kerak bo‘lishi mumkin.
 3. Supabase Project Settings → API’dan Project URL va **publishable** key (`sb_publishable_...`; eski loyihalarda `anon` key) qiymatlarini oling va `supabase-config.js` ichiga kiriting.
-4. `index.html` faylini localhost yoki HTTPS orqali oching. Supabase Authentication → URL Configuration’dagi Site URL/Redirect URLs qiymatlari ishlatayotgan manzilingizga mos bo‘lsin.
+4. Sayt: https://mezfis.github.io/recruiterflow-backend-foundation/ . Supabase Authentication → URL Configuration’da Site URL va Redirect URLs shu manzilga sozlangan.
 5. Ilovada hisob yarating. U `user` rolida ochiladi. Birinchi Owner’ni quyidagi SQL bilan qo‘lda tayinlang:
 
 ```sql
